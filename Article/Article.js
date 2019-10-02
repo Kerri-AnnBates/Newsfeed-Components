@@ -173,7 +173,8 @@ function createArticle(article) {
   paragraph1.textContent = article.firstParagraph;
   paragraph2.textContent = article.secondParagraph;
   paragraph3.textContent = article.thirdParagraph;
-
+  expandButton.textContent = 'Button';
+  
   // Events.
   expandButton.addEventListener('click', () => {
     articleDiv.classList.toggle('article-open');
